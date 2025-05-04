@@ -18,12 +18,14 @@
         @endif
         <style>
         .cta-btn:hover {
-            background-color:rgb(0, 0, 0);
+            background-color:#42a0e9;
             color: white;
         }
         .cta-btn {
             border-radius: 10px; 
-            border: 2px solid black; 
+            border: 2px solid #33496e; 
+            background-color:#33496e;
+            color:white;
             padding: 10px 20px; 
         }
         </style>
@@ -35,7 +37,7 @@
                     {{-- Pub Trivia Logo --}}
                     <a
                             href="{{ url('/') }}"
-                            class="inline-block border border-transparent hover:border-[#19140035] rounded-sm text-sm leading-normal"
+                            class="inline-block border border-transparent rounded-sm text-sm leading-normal"
                         >
                         <svg class="w-full max-w-[300px] text-[#0066ff] dark:text-[#F61500] transition-all translate-y-0 opacity-100 max-w-none duration-750 starting:opacity-0 starting:translate-y-6" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
                             <text x="0" y="90" font-family="Arial Black, sans-serif" font-size="32" fill="currentColor">PUB TRIVIA</text>
