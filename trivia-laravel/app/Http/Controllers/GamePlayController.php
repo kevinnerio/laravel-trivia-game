@@ -7,7 +7,7 @@ use App\Models\Game;
 use App\Services\TriviaApiService;
 use Illuminate\Support\Facades\Session;
 
-class GameController extends Controller
+class GamePlayController extends Controller
 {
     protected $triviaApi;
 
