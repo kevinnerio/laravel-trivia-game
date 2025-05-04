@@ -45,12 +45,12 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the Trivia Game!</h1>
+        <h1>Welcome to the {{ env('APP_NAME') }}!</h1>
         <p>Test your knowledge and have fun!</p>
     </header>
 
     <div class="content">
-        <h2>Ready to play?</h2>
+        <h2>Ready to play {{ env('APP_NAME') }}?</h2>
         <p>Sign up and start your trivia adventure today!</p>
         <a href="{{ route('game.start') }}" class="cta-btn">Start Game</a>
     </div>
