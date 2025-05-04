@@ -18,7 +18,11 @@
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
             <div>
                 <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                <svg class="w-full max-w-[300px] text-[#0066ff] dark:text-[#F61500] transition-all translate-y-0 opacity-100 max-w-none duration-750 starting:opacity-0 starting:translate-y-6" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+                    <text x="50%" y="90" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="32" fill="currentColor">
+                        PUB TRIVIA
+                    </text>
+                </svg>
                 </a>
             </div>
 

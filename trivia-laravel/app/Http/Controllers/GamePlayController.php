@@ -64,6 +64,12 @@ class GamePlayController extends Controller
 
     public function result(Game $game)
     {
-        return view('game.result', compact('game'));
+        $questions = Session::get('questions');
+    
+        return view('game.result', [
+            'score' => $game->score,
+            'totalQuestions' => count($questions),
+            'game' => $game
+        ]);
     }
 }
