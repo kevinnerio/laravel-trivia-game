@@ -11,22 +11,18 @@
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
         <!-- Styles / Scripts -->
-        @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
-        @else
-
-        @endif
         <style>
         .cta-btn:hover {
             background-color:#42a0e9;
             color: white;
         }
         .cta-btn {
-            border-radius: 10px; 
-            border: 2px solid #33496e; 
+            border-radius: 10px;
+            border: 2px solid #33496e;
             background-color:#33496e;
             color:white;
-            padding: 10px 20px; 
+            padding: 10px 20px;
         }
         </style>
     </head>

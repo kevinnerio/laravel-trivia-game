@@ -1,6 +1,13 @@
 <x-guest-layout>
+    @vite('resources/css/app.css')
     <form method="POST" action="{{ route('register') }}">
         @csrf
+
+        <!-- Create your account header -->
+        <div id="welcome-registration">
+            <h1 class="text-3xl underline mb-2" id="welcome-registration_title">Create An Account</h1>
+            <p class="mb-4" id="welcome-registration_subtext">Start saving your trivia progress today!</p>
+        </div>
 
         <!-- Name -->
         <div>
